@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Conference ticket generator</title>
+</head>
+
+<body>
+  <div class="background-pattern"></div>
+  <div class="background-circle"></div>
+  <div class="background-circle-2"></div>
+  <div class="background-line-top"></div>
+  <div class="background-line-bottom"></div>
+  <main>
+    <header>
+      <div class="logo"></div>
+    </header>
+    <div class="titles">
+      <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+      <h2>Secure your spot at next year's event biggest coding conference.</h2>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="avatar-container">Upload Avatar</label>
+        <div class="avatar-container">
+          <div class="upload-icon"></div>
+          <p>Drag and drop or click to upload</p>
+        </div>
+        <div class="avatar-info">
+          <div class="info-icon"></div>
+          <p>Upload your photo (JPG or PNG, max size: 500KB)</p>
+        </div>
+        <label for="name">Full Name</label>
+        <input class="name-input" type="text" id="name" name="name">
+        <label for="email">Email Address</label>
+        <input class="email-input" type="email" id="email" name="email" placeholder="example@email.com">
+        <label for="github">GitHub Username</label>
+        <input class="github-input" type="text" id="github" name="github" placeholder="@yourusername">
+        <button class="submit-button">Generate My Ticket</button>
+      </div>
+    </form>
+  </main>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
